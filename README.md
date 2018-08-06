@@ -1,2 +1,2 @@
 # PersoniumA
-Personium website design(A type)
+Personium website design
