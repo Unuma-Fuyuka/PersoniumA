@@ -4,8 +4,10 @@
 	<meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
 	
-    <title>Quantify - Responsive One Page HTML Theme Preview - Propeller</title>
-    <meta name="description" content="Quantify is a free responsive one page HTML material theme built with Propeller. It is a perfect theme for a variety of uses from blogs to personal or business portfolios."/>
+    <title>Personium | Open Source PDS Software.</title>
+	<script src="assets/js/desvg.js"></script>
+
+    <meta name="description" content="An interconnectable open source PDS (Personal Data Store) server envisioning world wide web of protected data APIs."/>
 	<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
 	
 	<!--Google Material icon-->
@@ -18,11 +20,13 @@
     <link rel="stylesheet" href="assets/css/propeller.min.css" type="text/css" media="all"/>
     
     <!--Owl Carousel css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css" media="all"/>
     
     <!--Quantify css-->
     <link rel="stylesheet" href="assets/css/quantify-theme.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/quantify.css" type="text/css" media="all"/>
+
+
     	    	    
 </head>
 <body>
@@ -63,7 +67,10 @@
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse pmd-navbar-sidebar">
+			<style>/*
+            <div id="bs-example-navbar-collapse-2" class="collapse navbar-collapse pmd-navbar-sidebar">
+				<li class="pmd-navbar-right-icon pull-right s-link"><a href="https://twitter.com/personium_ja"><img src="assets/img/twitter.svg" alt="twitter"></a></li>
+                <li class="pmd-navbar-right-icon pull-right s-link"><a href="https://github.com/personium"><img src="assets/img/github.svg" alt="github"></a></li>
                 <!--Navbar Search -->
 				<div class="pmd-navbar-right-icon pull-right">
                     <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect search-toggle" href="javascript:void(0);">
@@ -77,18 +84,26 @@
                     </form>
               	</div><!--End Navbar Search -->
                 <!-- Navbar Right -->
+					*/</style>
               	<ul class="nav navbar-nav navbar-right">
-                	<li><a href="#intro">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#how-we-work">How</a></li>
-                    <li><a href="#team-members">team</a></li>
+                	
+                    <li><a href="#statistics">About</a></li>
+<!--					<li><a href="#testimonials">Documentation</a></li>-->
+                    <li><a href="#resources">Resources</a></li>
+					<li><a href="#articles-to-read">Demo</a></li>
+<!--                    <li><a href="#team-members">team</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#articles-to-read">Articles</a></li>
-                    <li><a href="#contact">Contact</a></li>
+<li><a href="#intro">Home</a></li>-->
+					<li><a href="#contact">Contact</a></li>
+									<li class="s-link"><a href="#articles-to-read"><img src="assets/img/twitter.svg" alt="twitter"></a></li>
+                <li class="s-link"><a href="#articles-to-read"><img src="assets/img/github.svg" alt="github"></a></li>
+					
+					<!--<li><a href="#">Fork me on GitHub</a></li>-->
                     <span class="nav-active"></span>
               	</ul><!-- End Navbar Right -->
             </div>
-      	</div>
+      	
         <div class="pmd-sidebar-overlay"></div> 
     </nav> <!-- Emd Navbar -->
     
@@ -96,16 +111,16 @@
 		Intro section
  	----------------------------->
     <div id="intro" class="intro-section owl-carousel text-center">
-		<div class="intro-img intro-banner-left" style="background-image: url('assets/img/bg-1.jpg'); background-size: cover;">
+		<div class="intro-img intro-banner-left" style="background-image: url('assets/img/bg-1.png'); background-size: cover;">
             <div class="container">
                 <div class="intro-text">
-                    <h1 class="inverse">A developer Library</h1>	
-                    <p class="lead inverse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat arcu ut orci porta, eget porttitor felis suscipit. Sed a nisl ullamcorper, tempus augue at, rutrum lacus. Duis et turpis eros. </p>
-                    <button class="btn btn-primary pmd-btn-outline pmd-ripple-effect btn-lg">Get Started</button>
+                    <h1 class="inverse"><img class="svg" src="assets/img/logo-quantify-light.svg" alt="personium" title="personium"></h1>	
+                    <p class="lead inverse">相互につながるオープンソースのPDS (Personal Data Store) server で保護されたDataAPIのWorld Wide Webという未来を描く</p>
+                    <a href="https://github.com/personium/"><button class="btn btn-primary pmd-btn-outline pmd-ripple-effect btn-lg">Get Started</button></a>
                 </div>
             </div>
 		</div>
-		<div class="intro-img" style="background-image: url('assets/img/bg-2.jpg'); background-size: cover;">
+		<div class="intro-img" style="background-image: url('assets/img/bg-2.png'); background-size: cover;">
             <div class="container">
                 <div class="intro-text">
                     <h1 class="inverse">A smarter solution for development</h1>	
@@ -114,7 +129,7 @@
                 </div>
             </div>
 		</div>
-		<div class="intro-img" style="background-image: url('assets/img/bg-3.jpg'); background-size: cover;">
+		<div class="intro-img" style="background-image: url('assets/img/bg-3.png'); background-size: cover;">
             <div class="container">
                 <div class="intro-text">
                     <h1 class="inverse">Design better. Faster. Together.</h1>	
@@ -126,8 +141,76 @@
 	</div>
     <!-- End Section Intro Slider -->
       	
+	    <!------------------------------
+		Section Statistics
+ 	------------------------------->           
+    <div id="statistics" class="section">
+    	<div class="container"> 
+      		<h2 class="text-center without-subtext">オープンソースのＰＤＳサーバソフトウェア</h2>
+			<div class="videoflame">
+			<div class="embed-responsive embed-responsive-16by9">
+  				<iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/uBFfsCIwGq4?&autoplay=1rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			</div>
+			
+            <div class="row">
+            	<div class="col-sm-4 col-xs-12">
+              		<!--Statistics Card-->
+               		<div class="pmd-card-about pmd-card-transparent">
+                		<!-- Card media -->
+                		<div class="pmd-card-icon text-center">
+                            <img class="svg svgcolor" src="assets/img/lock.svg" alt="Personal Data Store" title="Personal Data Store">
+							<!--<span class="icon featured fa-lock"></span>-->
+							
+                		</div>
+                		<!-- Card header -->
+                		<div class="pmd-card-body">
+                            <h4 class="pmd-card-title-text text-uppercase text-center">
+                            	<span class="pmd-display2 stat-item text-center">Personal Data Store<br></span> <!--Projects-->
+                            </h4>
+                            <p class="pmd-card-description">Personiumは、様々な端末の様々なアプリからデータを読み書きできる分散PDSサーバです。電子カルテからゲームまで、様々なアプリデータをホストできるBaaSとしての実力に裏打ちされた柔軟性をもっています。Personiumは遠大な理念・ビジョンを持ちながらも、豊富な実績をもったソフトウェアです。</p>	
+                        </div>
+                	</div>
+        		</div><!--Statistics Card-->
+        		<!--Statistics Card-->
+        		<div class="col-sm-4 col-xs-12">
+               		<div class="pmd-card-about pmd-card-transparent">
+                		<!-- Card media -->
+                		<div class="pmd-card-icon text-center">
+                            <img class="svg" src="assets/img/phone_iphone.svg" alt="Backend as a Service" title="Backend as a Service">
+							<!--<span class="icon featured fa-mobile"></span>-->
+                		</div>
+                		<!-- Card header -->
+                		<div class="pmd-card-body">
+                            <h4 class="pmd-card-title-text text-uppercase text-center">
+                            	<span class="pmd-display2 stat-item">Backend as a Service<br></span> <!--Happy Clients-->
+                            </h4>
+                            <p class="pmd-card-description">Personiumの強みはここです。Android, iOS, Windowsなど様々なプラットフォームの、スマートフォン、タブレット、PC、センサなど様々なデバイス、そして電子カルテからゲームまで様々なアプリケーションのデータをセキュアに格納してきた実績があります。<br>リレーショナルデータを扱うOASIS ODataに準拠した空間をいくつでも作成できるので、基本的なRESTのCRUDに加え、多彩な検索や楽観ロック制御など高度で柔軟なAPIの恩恵を受けることができます。また画像や音声などメディアデータをはじめとするファイルデータはWebDAVでシンプルにCRUD可能です。</p>
+                        </div>
+                	</div>
+        		</div><!--End Statistics Card-->
+        		<!--Statistics Card-->
+        		<div class="col-sm-4 col-xs-12">
+               		<div class="pmd-card-about pmd-card-transparent">
+                		<!-- Card media -->
+                		<div class="pmd-card-icon text-center">
+                           <img class="svg" src="assets/img/check.svg" alt="Components" title="Components">
+							<!--<span class="icon featured fa-check"></span>-->
+                		</div>
+                		<!-- Card header -->
+                		<div class="pmd-card-body">
+                            <h4 class="pmd-card-title-text text-uppercase text-center">
+                            	<span class="pmd-display2 stat-item">Interconnectable<br></span> <!--Components-->
+                            </h4>
+                            <p class="pmd-card-description">相互接続されたデータストア間のセキュアなデータ共有制御により、多数の企業や個人が絡む社会を支えるICTを構築可能です。介護士が記録した体温・血圧情報を医師が参照してより高度な診療に活かしたり、学校の先生が記録した算数の苦手ポイントを家庭教師が指導計画に活かしたり、と今までシステムの垣根のためにできなかったことが実現できます。PKI技術でデータストア間の信頼を担保しているため、インフラをまたいでの相互接続ができます。</p>	
+                        </div>
+                	</div>
+        		</div><!--End Statistics Card-->
+      		</div>
+    	</div>
+    </div><!-- End Section Statistics -->
     <!-- Section About Us -->
-    <div id="about" class="section">
+    <style>/*<div id="about" class="section">
         <div class="container"> 
             <h2 class="text-center">About Us</h2>
             <p class="lead text-center">perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta</p>
@@ -181,9 +264,9 @@
             </div><!-- End Our Accomplishments -->
             
         </div>
-    </div><!-- End Section About Us --> 
+    </div><!-- End Section About Us --> */</style>
     
-    <!----------------------------
+    <style>/*<!----------------------------
 		Section How We Work
  	----------------------------->
     <div id="how-we-work" class="section white-bg text-center">
@@ -250,7 +333,80 @@
                 </div>
 			</div>
         </div>
+    </div><!--End Section How We Work -->*/</style>
+	
+	<!----------------------------
+		Section How We Work
+ 	----------------------------->
+    <div id="resources" class="section white-bg text-center">
+        <div class="container">
+			<h2>Resources</h2>
+            <p class="lead">PersoniumはApache License Version 2.0のオープンソースソフトウェアです。</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                	<!-- How We Work Card -->
+					<a href="https://personium.io/docs/ja/server-operator/setup_ja.html" target="_blank">
+                	<div class="pmd-card pmd-card-border pmd-z-depth">
+                		<!-- Card media -->
+                		<div class="pmd-card-icon">
+                            <img class="svg" src="assets/img/settings.svg" alt="Set Up" title="Set Up">
+                		</div>
+                		<!-- Card header -->
+                		<div class="pmd-card-body">
+                            <h4 class="pmd-card-title-text">Set Up</h4>
+                            <p class="pmd-card-description-center">Personiumのサーバ環境を手軽にし、自動的に構築できます</p>
+                        </div>
+                	</div> </a><!-- End How We Work Card -->
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                	<!-- How We Work Card -->
+					<a href="https://github.com/personium/" target="_blank">
+                	<div class="pmd-card pmd-card-border pmd-z-depth">
+                		<!-- Card media -->
+                		<div class="pmd-card-icon">
+                            <img class="svg"  src="assets/img/code.svg" alt="Source" title="Source">
+                		</div>
+                		<!-- Card header -->
+                		<div class="pmd-card-body">
+                			<h4 class="pmd-card-title-text">Source</h4>
+                			<p class="pmd-card-description-center">すべてのソースコードをGitHubで公開しています</p>	
+                		</div>
+                	</div></a> <!-- End How We Work Card -->
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                	<!-- How We Work Card -->
+					<a href="https://www.slideshare.net/ssuser11bf2b/personium-mydata2016-0902" target="_blank">
+                	<div class="pmd-card pmd-card-border pmd-z-depth">
+                		<!-- Card media -->
+                		<div class="pmd-card-icon">
+                            <img class="svg"  src="assets/img/slideshare.svg" alt="Introduction" title="Introduction">
+                		</div>
+                		<!-- Card header -->
+                		<div class="pmd-card-body">
+                			<h4 class="pmd-card-title-text">Introduction</h4>
+                			<p class="pmd-card-description-center">Personiumの紹介をslideshareで公開しています</p>	
+                		</div>
+                	</div></a> <!-- End How We Work Card -->
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                	<!-- How We Work Card -->
+					<a href="https://personium.io/docs/ja/" target="_blank">
+                	<div class="pmd-card pmd-card-border pmd-z-depth">
+                		<!-- Card media -->
+                		<div class="pmd-card-icon">
+                           <img class="svg"  src="assets/img/file-text-o.svg" alt="Documentation" title="Documentation">
+                		</div>
+                		<!-- Card header -->
+                		<div class="pmd-card-body">
+                			<h4 class="pmd-card-title-text">Documentation</h4>
+                			<p class="pmd-card-description-center">Personiumの仕様、APIリファレンスがオンラインで閲覧可能</p>	
+                		</div>
+                	</div></a> <!-- End How We Work Card -->
+                </div>
+			</div>
+        </div>
     </div><!--End Section How We Work -->
+
 
     <!----------------------------
 		Team members section 
@@ -449,125 +605,96 @@
             	</div>
             </div>
         </div>
-    </div><!-- End Section testimonials --> 
+    </div><!-- End Section testimonials -->
       
 	<!------------------------------
 		Section Articles To Read
- 	------------------------------->   
+ 	------------------------------->
 	<div id="articles-to-read" class="section articles-to-read">
         <div class="container"> 
-          	<h2 class="text-center without-subtext">Articles to Read</h2>
+          	<h2 class="text-center">Personium sample デモ</h2>
+			 <p class="lead text-center">Personium の使用例をご紹介します。</p>
+			<div class="videoflame">
+			<div class="embed-responsive embed-responsive-16by9">
+  				<iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/0Wqzj3ZX2fc?&autoplay=1rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			</div>
+			
+			<h2 class="text-center without-subtext about">Management Tools</h2>
           	<div class="row">
             	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 	<!-- Articles Card -->
+					<a href="https://github.com/personium/app-uc-unit-manager/blob/master/README_ja.md" target="_blank">
               		<div class="pmd-card pmd-z-depth">
 						<div class="pmd-card-media">
-							<a href="javascript:void(0)" title="Headline indicating nature of articles">
-								<img alt="" src="assets/img/news-img-1.jpg" class="img-responsive" />
-							</a>
+							
+								<img alt="" src="assets/img/demo5.jpg" class="img-responsive" />
+							
 						</div>
-                		<div class="pmd-card-body">
-                			<h4 class="pmd-card-title-text">
-								<a href="javascript:void(0)" title="Headline indicating nature of articles">The craft and logic of design</a>
-							</h4>
-                			<p class="pmd-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia magni, voluptate! Recusandae deleniti doloribus.</p>
+                		<div class="pmd-card-body text-center">
+                			<h4 class="pmd-card-title-text">UnitManager</h4>
+                			<p class="pmd-card-description">UnitManager はPersoniumのUnit内のCellを管理するGUIツールです。
+
+</p>
                 		</div>
-              		</div><!-- End Articles Card -->
+              		</div></a><!-- End Articles Card -->
             	</div>
             	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
               		<!-- Articles Card -->
+					<a href="https://personium.io/demo/home-app/" target="_blank">
                     <div class="pmd-card pmd-z-depth">
                 		<div class="pmd-card-media">
-                        	<a href="javascript:void(0)" title="Headline indicating nature of articles.">
-                            	<img alt="" src="assets/img/news-img-2.jpg" class="img-responsive" />
-                            </a>
+                        	
+                            	<img alt="" src="assets/img/demo3.jpg" class="img-responsive" />
+                            
                         </div>
-                		<div class="pmd-card-body">
+                		<div class="pmd-card-body text-center">
                 			<h4 class="pmd-card-title-text">
-                  				<a href="javascript:void(0)" title="Headline indicating nature of articles.">A product manager’s guide to working with visual designers</a>
+                  				PDSデモ ホームアプリ
                   			</h4>
-                			<p class="pmd-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia magni, voluptate! Recusandae deleniti doloribus.</p>
+                			<p class="pmd-card-description">このアプリはPersoniumをPDS (Personal Data Store)として使用する際のユーザーインターフェースのサンプルです。</p>
                 		</div>
-              		</div><!-- End Articles Card -->
+						</div></a><!-- End Articles Card -->
             	</div>
             	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 visible-lg visible-md hidden-sm visible-md visible-xs">
                 	<!-- Articles Card -->
+					<a href="https://personium.io/demo/pcui/" target="_blank">
               		<div class="pmd-card pmd-z-depth">
                 		<div class="pmd-card-media">
-                        	<a href="javascript:void(0)" title="Headline indicating nature of articles.">
-                            	<img alt="" src="assets/img/news-img-3.jpg" class="img-responsive" />
-                            </a>
+                        	
+                            	<img alt="" src="assets/img/demo4.jpg" class="img-responsive" />
+                            
                         </div>
-                		<div class="pmd-card-body">
-                			<h4 class="pmd-card-title-text">
-                  				<a href="javascript:void(0)" title="Headline indicating nature of articles.">8 tips for designing mobile-friendly websites</a>
+                		<div class="pmd-card-body text-center">
+                			<h4 class="pmd-card-title-text">PCUI
                   			</h4>
-                			<p class="pmd-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia magni, voluptate! Recusandae deleniti doloribus.</p>
+                			<p class="pmd-card-description">PCUIはPersoniumをコマンドラインから操作する為のツールです。
+
+</p>
                 		</div>
-              		</div><!-- End Articles Card -->
+						</div></a><!-- End Articles Card -->
+            	</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 visible-lg visible-md hidden-sm visible-md visible-xs">
+                	<!-- Articles Card -->
+					<a href="https://personium.io/demo/pcui/" target="_blank">
+              		<div class="pmd-card pmd-z-depth">
+                		<div class="pmd-card-media">
+                        	
+                            	<img alt="" src="assets/img/demo4.jpg" class="img-responsive" />
+                            
+                        </div>
+                		<div class="pmd-card-body text-center">
+                			<h4 class="pmd-card-title-text">PCUI
+                  			</h4>
+                			<p class="pmd-card-description">PCUIはPersoniumをコマンドラインから操作する為のツールです。
+
+</p>
+                		</div>
+						</div></a><!-- End Articles Card -->
             	</div>
             </div>
         </div>
     </div><!-- End Section Articles To Read --> 
-
-    <!------------------------------
-		Section Statistics
- 	------------------------------->           
-    <div id="statistics" class="section white-bg">
-    	<div class="container"> 
-      		<h2 class="text-center without-subtext">Statistics</h2>
-            <div class="row">
-            	<div class="col-sm-4 col-xs-12">
-              		<!--Statistics Card-->
-               		<div class="pmd-card pmd-card-transparent text-center">
-                		<!-- Card media -->
-                		<div class="pmd-card-icon">
-                            <img class="svg" src="assets/img/project.svg" alt="Projects" title="Projects">
-                		</div>
-                		<!-- Card header -->
-                		<div class="pmd-card-body">
-                            <h4 class="pmd-card-title-text text-uppercase">
-                            	<span class="pmd-display2 stat-item">254<br></span> Projects
-                            </h4>
-                            <p class="pmd-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolores cupiditate vitae. consectetur adipisicing elit.</p>	
-                        </div>
-                	</div>
-        		</div><!--Statistics Card-->
-        		<!--Statistics Card-->
-        		<div class="col-sm-4 col-xs-12">
-               		<div class="pmd-card pmd-card-transparent text-center">
-                		<!-- Card media -->
-                		<div class="pmd-card-icon">
-                            <img class="svg" src="assets/img/happy-client.svg" alt="Happy Clients" title="Happy Clients">
-                		</div>
-                		<!-- Card header -->
-                		<div class="pmd-card-body">
-                            <h4 class="pmd-card-title-text text-uppercase">
-                            	<span class="pmd-display2 stat-item">68<br></span> Happy Clients
-                            </h4>
-                            <p class="pmd-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolores cupiditate vitae. consectetur adipisicing elit.</p>
-                        </div>
-                	</div>
-        		</div><!--End Statistics Card-->
-        		<!--Statistics Card-->
-        		<div class="col-sm-4 col-xs-12">
-               		<div class="pmd-card pmd-card-transparent text-center">
-                		<!-- Card media -->
-                		<div class="pmd-card-icon">
-                           <img class="svg" src="assets/img/components.svg" alt="Components" title="Components">
-                		</div>
-                		<!-- Card header -->
-                		<div class="pmd-card-body">
-                            <h4 class="pmd-card-title-text text-uppercase">
-                            	<span class="pmd-display2 stat-item">26<br></span> Components
-                            </h4>
-                            <p class="pmd-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolores cupiditate vitae. consectetur adipisicing elit.</p>	
-                        </div>
-                	</div>
-        		</div><!--End Statistics Card-->
-      		</div>
-    	</div>
-    </div><!-- End Section Statistics -->
 	
 	<!------------------------------
 		Section Subscribe Now
@@ -636,51 +763,19 @@
             <!-- Social icons -->
             <div class="social-icons text-center">
             	<h2 class="inverse text-capitalize">follow us on</h2>
-    			<ul class="icons-medium list-inline">
-        			<li class="facebook">
-                    	<a href="javascript:void(0)" target="_blank" class="pmd-ripple-effect">
-							<svg version="1.1"  x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
-                                <g>
-                                    <path fill="#FFFFFF" d="M17.5,14.5c0,0.504,0,3,0,3h-2v2.994l2,0.006v10h4v-10h3c0,0,0-0.985,0-3c-0.35,0-3,0-3,0s0-2.657,0-3
-                                        c0-0.344,0.569-1,1-1c0.43,0,1.16,0,2,0c0-0.459,0-1.537,0-3c-1.121,0-2.438,0-3,0C17.307,10.5,17.5,13.997,17.5,14.5z"/>
-                                </g>
-                            </svg>
-                        </a>
+    			<ul class="f-iconset text-center">
+        			<li class="f-icon">
+                    	
+							<a href="https://twitter.com/personium_ja" target="_blank"><img src="assets/img/twitter.svg" alt="twitter"></a>
+                        
                     </li>		
-                    <li class="instagram">
-                    	<a href="javascript:void(0)" target="_blank" class="pmd-ripple-effect">
-							<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
-                                <g>
-                                    <path fill="#FFFFFF" d="M26.071,9.938H13.803c-2.132,0-3.865,1.734-3.865,3.865v12.271c0,2.131,1.734,3.864,3.865,3.864h12.271
-                                        c2.131,0,3.864-1.734,3.864-3.864V13.803C29.938,11.672,28.203,9.938,26.071,9.938L26.071,9.938z M27.289,12.174l0.438-0.001v3.319
-                                        l-3.344,0.011l-0.011-3.319L27.289,12.174z M19.938,16.592c2.774,0,3.346,2.604,3.346,3.347c0,1.843-1.502,3.345-3.346,3.345
-                                        c-1.846,0-3.346-1.502-3.346-3.345C16.591,19.195,17.164,16.592,19.938,16.592L19.938,16.592z M27.745,25.83
-                                        c0,1.057-0.858,1.916-1.917,1.916H14.009c-1.058,0-1.917-0.858-1.917-1.916v-8.119h2.777c-0.258,0.635-0.403,1.501-0.403,2.228
-                                        c0,3.015,2.452,5.469,5.468,5.469c3.017,0,5.468-2.454,5.468-5.469c0-0.727-0.146-1.593-0.402-2.228h2.744v8.119H27.745z
-                                         M27.745,25.83"/>
-                                </g>
-                            </svg>
-                        </a>
+                    <li class="f-icon">
+                    	
+							
+                <a href="https://github.com/personium" target="_blank"><img src="assets/img/github.svg" alt="github"></a>
+                        
                     </li>		
-                    <li class="youtube">
-                    	<a href="javascript:void(0)" target="_blank" class="pmd-ripple-effect">
-							<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
-                                <g>
-                                    <path fill="#FFFFFF" d="M29.988,18.326c-0.007-0.402-0.039-0.91-0.094-1.523c-0.057-0.614-0.137-1.163-0.24-1.646
-                                        c-0.119-0.543-0.378-1.001-0.775-1.373c-0.398-0.372-0.861-0.588-1.391-0.647c-1.651-0.186-4.147-0.278-7.488-0.278
-                                        s-5.837,0.093-7.489,0.278c-0.528,0.06-0.99,0.275-1.384,0.647c-0.395,0.372-0.651,0.83-0.771,1.373
-                                        c-0.111,0.483-0.195,1.032-0.251,1.646c-0.056,0.613-0.087,1.121-0.095,1.523C10.004,18.728,10,19.286,10,20
-                                        s0.004,1.272,0.011,1.674c0.007,0.402,0.039,0.91,0.095,1.523c0.056,0.614,0.136,1.163,0.24,1.646
-                                        c0.119,0.543,0.377,1.001,0.775,1.373c0.398,0.371,0.861,0.587,1.39,0.646c1.652,0.187,4.148,0.279,7.489,0.279
-                                        s5.837-0.093,7.488-0.279c0.529-0.06,0.99-0.275,1.385-0.646c0.395-0.372,0.65-0.83,0.77-1.373
-                                        c0.111-0.483,0.195-1.032,0.252-1.646c0.055-0.613,0.087-1.121,0.094-1.523C29.996,21.272,30,20.714,30,20
-                                        S29.996,18.728,29.988,18.326z M23.951,20.603l-5.714,3.571c-0.104,0.074-0.231,0.111-0.38,0.111c-0.111,0-0.227-0.029-0.346-0.089
-                                        c-0.246-0.134-0.368-0.343-0.368-0.625v-7.143c0-0.282,0.123-0.491,0.368-0.625c0.253-0.134,0.495-0.127,0.726,0.022l5.714,3.571
-                                        c0.223,0.126,0.334,0.327,0.334,0.603S24.174,20.477,23.951,20.603z"/>
-                                </g>
-                            </svg>
-                    	</a>
-                    </li>
+                    
     			</ul>
     		</div><!--End social icons -->
 		</div>

@@ -1,7 +1,7 @@
 /* ---------------------------------------
 	Quantify Themes 1.0.0 
 ---------------------------------------	
-* 	Primary Color : #4acc8e
+* 	Primary Color : #1ebe8c
 * 	Secondary Color : #111111
 * 	Primary Text color : #111111
 * 	Secondary Text color : #373737
@@ -26,7 +26,7 @@ body {font-family: 'Roboto', sans-serif; font-size:16px; line-height:1.6; color:
 	Reuse class
 ---------------------------- */
 /*Background Color*/
-.primary-bg {background-color:#4acc8e;} 
+.primary-bg {background-color:#1ebe8c;} 
 .secondary-bg {background-color:#111111;} 
 .white-bg {background-color:#ffffff;}
 .black-bg { background-color:#4D575D;}
@@ -80,7 +80,7 @@ label{font-weight:400;}
 p { margin-bottom:24px; color:rgba(17,17,17,0.84); }
 a{ transition:all ease-in-out 0.3s; -moz-transition:all ease-in-out 0.3s; -ms-transition:all ease-in-out 0.3s; -o-transition:all ease-in-out 0.3s; -webkit-transition:all ease-in-out 0.3s;}
 a{ color:#111111; text-decoration:none; outline:none;}
-a:hover, a:focus, a:active{color:#4acc8e;}
+a:hover, a:focus, a:active{color:#1ebe8c;}
 	@media screen and (max-width: 1280px) { 
 		h2 { font-size:34px; margin-bottom:10px;}	
 		.lead { margin-bottom:36px; font-size: 18px;}
@@ -101,27 +101,36 @@ a:hover, a:focus, a:active{color:#4acc8e;}
 	Card
 ---------------------------- */
 .pmd-card { padding-top:0;}
+.pmd-card-about { padding-top:80px;}
 .pmd-card-body{color: rgba(17,17,17,.84);}
 .pmd-card-subtitle-text { opacity:1;}
 .pmd-card:hover { transition:all ease-in-out 0.4s; -moz-transition:all ease-in-out 0.4s; -webkit-transition:all ease-in-out 0.4s; -webkit-box-shadow: 0 0 16px rgba(0,0,0,0.16), 0 0 16px rgba(0,0,0,0.23); -moz-box-shadow: 0 0 16px rgba(0,0,0,0.16), 0 0 16px rgba(0,0,0,0.23); box-shadow: 0 0 16px rgba(0,0,0,0.16), 0 0 16px rgba(0,0,0,0.23);}
 .without-subtext { margin-bottom:40px;}
 .pmd-z-depth { -webkit-box-shadow:0 1px 3px rgba(0,0,0,0.10), 0 1px 2px rgba(0,0,0,0.12); box-shadow:0 1px 3px rgba(0,0,0,0.10), 0 1px 2px rgba(0,0,0,0.12);}
 .pmd-card .pmd-card-media img { width:100%;}
-.pmd-card-body .pmd-card-description { margin-bottom: 16px;}
+.pmd-card-body { margin-bottom: 16px; }
+.pmd-card-description {text-align: justify; text-align-last: left; }
+.pmd-card-description-center {text-align: justify; text-align-last: center; }
 /* card icon with border */  
 .pmd-card-border {border:1px solid #f8f8f8;}
+
 .pmd-card-icon svg,
-.pmd-card-icon img { max-width:64px;}
-.pmd-card-icon svg { display:inline-block; vertical-align:middle;}
-.pmd-card-icon svg path { fill:#4acc8e;}
-.pmd-card-body .pmd-card-title-text {  margin-bottom:10px; color:#111; }
-.pmd-card-icon { padding:24px 16px 0 16px; margin-bottom: 24px;}
+.pmd-card-icon img { max-width:100px; }
+.pmd-card-icon img svg { fill:#1EBE8C; }
+.pmd-card-icon svg { display:inline-block; vertical-align:middle; fill:#1EBE8C;}
+.pmd-card-icon svg path { fill:#1ebe8c;}
+.pmd-card-body .pmd-card-title-text {  margin-bottom:32px; color:#111; }
+.pmd-card-icon { padding:35px 16px 0 16px; margin-bottom: 24px;}
+svgcolor path {fill: #1EBE8C;}
+svgcolor path {transition: 0.2s;}
+svgcolor path:hover {fill: #add8e6;}
 
 /* Card transparent */
 .pmd-card-transparent { background:transparent;}
 .pmd-card-transparent .pmd-card-icon{padding-top:0;}
 .pmd-card-transparent .pmd-card-body{margin-bottom:0;}
 .pmd-card.pmd-card-transparent:hover{ box-shadow: none;}
+.about{ padding-top:40px;}
 	@media screen and (max-width:767px){
 		.pmd-card.pmd-card-lastchild { margin-bottom:0;}
 		.pmd-card{ margin-bottom: 16px;}
@@ -131,20 +140,20 @@ a:hover, a:focus, a:active{color:#4acc8e;}
 	Button
 ---------------------------- */
 /* Primary Button */
-.btn-primary{background-color:#4acc8e; border:#4acc8e solid 2px;}
+.btn-primary{background-color:#1ebe8c; border:#1ebe8c solid 2px;}
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus{background-color:#38B177; color:#ffffff; border-color:#38B177;}
 /* Secondary Button */
 .btn-secondary{ background-color:#3c87da; color:#ffffff;}
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active{background-color:#0047b8; color:#ffffff;}
 /* Default Button */
 .btn-default{background-color:#ffffff; border:2px solid #ffffff;  color:#111111;}
-.btn-default:hover, .btn-default:focus, .btn-default:active{ background-color:#4acc8e; border-color: #4acc8e; color:#fff;}
+.btn-default:hover, .btn-default:focus, .btn-default:active{ background-color:#1ebe8c; border-color: #1ebe8c; color:#fff;}
 /* Outline Button */
 .btn-primary.pmd-btn-outline{ background-color:transparent; border:2px solid #ffffff; color:#ffffff;}
-.btn-primary.pmd-btn-outline:hover, .btn-primary.pmd-btn-outline:focus, .btn-primary.pmd-btn-outline:active{ background-color:#4acc8e; color:#ffffff; border:2px solid #4acc8e;}
+.btn-primary.pmd-btn-outline:hover, .btn-primary.pmd-btn-outline:focus, .btn-primary.pmd-btn-outline:active{ background-color:#1ebe8c; color:#ffffff; border:2px solid #1ebe8c;}
 /* Default Outline Button */
 .btn-default.pmd-btn-outline{ background-color:transparent; border:2px solid #ffffff; color:#ffffff;}
-.btn-default.pmd-btn-outline:hover, .btn-default.pmd-btn-outline:focus, .btn-default.pmd-btn-outline:active{ background-color:#ffffff; color:#4acc8e; border:2px solid #ffffff;}
+.btn-default.pmd-btn-outline:hover, .btn-default.pmd-btn-outline:focus, .btn-default.pmd-btn-outline:active{ background-color:#ffffff; color:#1ebe8c; border:2px solid #ffffff;}
 /* Fab Outline Button */
 .pmd-btn-fab.pmd-btn-outline i, .pmd-btn-fab.pmd-btn-outline span{line-height: 54px;}
 /* Button Ripple Background */

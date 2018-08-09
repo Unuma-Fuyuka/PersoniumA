@@ -16,6 +16,7 @@ URI     : https://colorlib.com
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Mobland - Mobile App Landing Page Template">
     <meta name="keywords" content="HTML5, bootstrap, mobile, app, landing, ios, android, responsive">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
     <!-- Font -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -40,15 +41,20 @@ URI     : https://colorlib.com
             <div class="row">
                 <div class="col-md-12">
                     <nav class="navbar navbar-dark navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img-fluid" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo-quantify-light.svg" class="img-fluid" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#gallery">GALLERY</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#pricing">PRICING</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#contact">CONTACT</a> </li>
-                                <li class="nav-item"><a href="#" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Download</a></li>
+                                <li class="nav-item"> <a class="nav-link active" href="#home">Home<span class="sr-only">(current)</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#features">About</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#Resources">Resources</a> </li>
+								<li class="nav-item"> <a class="nav-link" href="#Demo">Demo</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#pricing">Contact</a> </li>
+                                <!--<li class="nav-item"> <a class="nav-link" href="#contact">languages</a> </li>-->
+								<li class="s-link"><a href="https://twitter.com/personium_ja" target="_blank"><img src="images/twitter.svg" alt="twitter"></a></li>
+                        		<li class="s-link"><a href="https://github.com/personium" target="_blank"><img src="images/github.svg" alt="github"></a></li>
+								
+								
+                                <!--<li class="nav-item"><a href="https://github.com/personium/" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Download</a></li>-->
                             </ul>
                         </div>
                     </nav>
@@ -60,10 +66,12 @@ URI     : https://colorlib.com
 
     <header class="bg-gradient" id="home">
         <div class="container mt-5">
-            <h1>Mobile App Landing Page Template</h1>
-            <p class="tagline">The one and only solution for any kind of mobila app landing needs. Just change the screenshots and texts and you are good to go. </p>
+			<div class="header-title">
+            <h1><img class="logo" src="images/logo-quantify-light.svg" alt="Quantify - One Page HTML Theme" /></h1>
+            <p class="tagline">相互につながるオープンソースのPDS (Personal Data Store) server で保護されたDataAPIのWorld Wide Webという未来を描く</p>
+			</div>
         </div>
-        <div class="img-holder mt-3"><img src="images/iphonex.png" alt="phone" class="img-fluid"></div>
+       <!-- <div class="img-holder mt-3"><img src="images/iphonex.png" alt="phone" class="img-fluid"></div>-->
     </header>
 
     <div class="client-logos my-5">
@@ -78,20 +86,25 @@ URI     : https://colorlib.com
         <div class="container">
 
             <div class="section-title">
-                <small>HIGHLIGHTS</small>
-                <h3>Features you love</h3>
+                <small>About</small>
+                <h3>オープンソースのＰＤＳサーバソフトウェア</h3>
             </div>
-
+			<div class="videoflame">
+			<div class="embed-responsive embed-responsive-16by9 video">
+  				<iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/uBFfsCIwGq4?&autoplay=1rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+				</div>
 
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="card features">
                         <div class="card-body">
-                            <div class="media">
-                                <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
+                            <div class="about-icon">
+								<img src="images/lock.svg" alt="Components" title="Components">
+                                <!--<span class="ti-face-smile gradient-fill ti-3x mr-3"></span>-->
                                 <div class="media-body">
-                                    <h4 class="card-title">Simple</h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque </p>
+                                    <h4 class="card-title">Personal Data Store</h4>
+                                    <p class="card-text">Personiumは、様々な端末の様々なアプリからデータを読み書きできる分散PDSサーバです。電子カルテからゲームまで、様々なアプリデータをホストできるBaaSとしての実力に裏打ちされた柔軟性をもっています。Personiumは遠大な理念・ビジョンを持ちながらも、豊富な実績をもったソフトウェアです。 <br><br><br><br><br><br><br></p>
                                 </div>
                             </div>
                         </div>
@@ -100,11 +113,14 @@ URI     : https://colorlib.com
                 <div class="col-12 col-lg-4">
                     <div class="card features">
                         <div class="card-body">
-                            <div class="media">
-                                <span class="ti-settings gradient-fill ti-3x mr-3"></span>
+                            <div class="about-icon">
+								<img src="images/phone_iphone.svg" alt="Components" title="Components">
+                                <!--<span class="ti-settings gradient-fill ti-3x mr-3"></span>-->
                                 <div class="media-body">
-                                    <h4 class="card-title">Customize</h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque </p>
+                                    <h4 class="card-title">Backend as a Service</h4>
+                                    <p class="card-text">Personiumの強みはここです。Android, iOS, Windowsなど様々なプラットフォームの、スマートフォン、タブレット、PC、センサなど様々なデバイス、そして電子カルテからゲームまで様々なアプリケーションのデータをセキュアに格納してきた実績があります。
+
+<br>リレーショナルデータを扱うOASIS ODataに準拠した空間をいくつでも作成できるので、基本的なRESTのCRUDに加え、多彩な検索や楽観ロック制御など高度で柔軟なAPIの恩恵を受けることができます。また画像や音声などメディアデータをはじめとするファイルデータはWebDAVでシンプルにCRUD可能です。</p>
                                 </div>
                             </div>
                         </div>
@@ -113,11 +129,12 @@ URI     : https://colorlib.com
                 <div class="col-12 col-lg-4">
                     <div class="card features">
                         <div class="card-body">
-                            <div class="media">
-                                <span class="ti-lock gradient-fill ti-3x mr-3"></span>
+                            <div class="about-icon">
+								<img src="images/check.svg" alt="Components" title="Components">
+                                <!--<span class="ti-lock gradient-fill ti-3x mr-3"></span>-->
                                 <div class="media-body">
-                                    <h4 class="card-title">Secure</h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque </p>
+                                    <h4 class="card-title">Interconnectable</h4>
+                                    <p class="card-text">相互接続されたデータストア間のセキュアなデータ共有制御により、多数の企業や個人が絡む社会を支えるICTを構築可能です。介護士が記録した体温・血圧情報を医師が参照してより高度な診療に活かしたり、学校の先生が記録した算数の苦手ポイントを家庭教師が指導計画に活かしたり、と今までシステムの垣根のためにできなかったことが実現できます。PKI技術でデータストア間の信頼を担保しているため、インフラをまたいでの相互接続ができます。<br><br><br><br></p>
                                 </div>
                             </div>
                         </div>
@@ -130,32 +147,81 @@ URI     : https://colorlib.com
 
 
     </div>
-    <!-- // end .section -->
-    <div class="section">
-
+	<!-- // end .section -->
+	
+	    <div class="section" id="pricing">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-6">
-                    <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
-                    <h2>Discover our App</h2>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem eveniet vero maxime ratione </p>
-                    <a href="#" class="btn btn-primary">Read more</a>
+            <div class="section-title" id="Resources">
+                <small>Resources</small>
+                <h3>PersoniumはApache License Version 2.0の<br>オープンソースソフトウェアです。</h3>
+            </div>
+
+            <div class="card-deck">
+                <div class="card pricing">
+                    <div class="card-head">
+                        <small class="text-primary">Set Up</small>
+                        <span class="price"><img class="svg" src="images/settings.svg" alt="Set Up" title="Set Up"></span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <div class="list-group-item">Personiumのサーバ環境を手軽に、そして自動的に構築</div>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://personium.io/docs/ja/server-operator/setup_ja.html" target="_blank" class="btn btn-primary btn-lg btn-block">Set Up</a>
+                    </div>
+                </div>
+                <div class="card pricing">
+                    <div class="card-head">
+                        <small class="text-primary">Source</small>
+                        <span class="price"><img class="svg" src="images/code.svg" alt="Set Up" title="Set Up"></span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <div class="list-group-item">すべてのソースコードをGitHubで公開</div>
+ 
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://github.com/personium/" target="_blank" class="btn btn-primary btn-lg btn-block">Source</a>
+                    </div>
+                </div>
+                <div class="card pricing">
+                    <div class="card-head">
+                        <small class="text-primary">Introduction</small>
+                        <span class="price"><img class="svg" src="images/slideshare.svg" alt="Set Up" title="Set Up"></span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <div class="list-group-item">Personiumの紹介をslideshareで公開</div>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://www.slideshare.net/ssuser11bf2b/personium-mydata2016-0902" target="_blank" class="btn btn-primary btn-lg btn-block">Introduction</a>
+                    </div>
+                </div>
+				<div class="card pricing">
+                    <div class="card-head">
+                        <small class="text-primary">Documentation</small>
+                        <span class="price"><img class="svg" src="images/file-text-o.svg" alt="Set Up" title="Set Up"></span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <div class="list-group-item">仕様、APIリファレンスがオンラインで閲覧可能</div>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://personium.io/docs/ja/" target="_blank" class="btn btn-primary btn-lg btn-block">Documentation</a>
+                    </div>
                 </div>
             </div>
-            <div class="perspective-phone">
-                <img src="images/perspective.png" alt="perspective phone" class="img-fluid">
-            </div>
+            <!-- // end .pricing -->
+
+
         </div>
 
     </div>
     <!-- // end .section -->
+    
 
-
+<script>/*
     <div class="section light-bg">
         <div class="container">
             <div class="section-title">
-                <small>FEATURES</small>
-                <h3>Do more with our app</h3>
+               <!-- <small>FEATURES</small>-->
+                <h3>Management Tools</h3>
             </div>
 
             <ul class="nav nav-tabs nav-justified" role="tablist">
@@ -240,6 +306,27 @@ URI     : https://colorlib.com
         </div>
     </div>
     <!-- // end .section -->
+	
+	    <div class="section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6">
+                    <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
+                    <h2>Discover our App</h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem eveniet vero maxime ratione </p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+            <div class="perspective-phone">
+                <img src="images/perspective.png" alt="perspective phone" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+    
+	
+	<!-- // end .section -->
 
     <div class="section">
 
@@ -261,49 +348,118 @@ URI     : https://colorlib.com
 
     </div>
     <!-- // end .section -->
+	 */</script>
 
 
-    <div class="section light-bg">
+    <div class="section light-bg" id="Demo">
 
         <div class="container">
-            <div class="row">
-                <div class="col-md-8 d-flex align-items-center">
+			<div class="section-title">
+                <small>Personium の使用例をご紹介します。</small>
+                <h3>Personium sample デモ</h3>
+            </div>
+			<div class="videoflame">
+			<div class="embed-responsive embed-responsive-16by9 video">
+  				<iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/0Wqzj3ZX2fc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			</div>
+
+			
+			<div class="section-title">
+                <h3>Management Tools</h3>
+            </div>
+			
+			<div class="row">
+                <div class="col-md-12 d-flex align-items-center">
                     <ul class="list-unstyled ui-steps">
+						
+							<li class="media">
+
+								<div class="circle-icon mr-5">1</div>
+								<div class="media-body col-md-5">
+									<h5>UnitManager</h5>
+									<p>UnitManager はPersoniumのUnit内のCellを管理するGUIツールです。</p>
+								</div>
+								<div class="media-body col-md-7">
+									<a href="https://github.com/personium/app-uc-unit-manager/blob/master/README_ja.md" target="_blank">
+										<span class="tools"><img src="images/demo5.jpg" alt="Set Up" title="Set Up"></span>
+									</a>
+								</div>
+
+							</li>
+						
+						
                         <li class="media">
-                            <div class="circle-icon mr-4">1</div>
-                            <div class="media-body">
-                                <h5>Create an Account</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem </p>
+                            <div class="circle-icon mr-5">2</div>
+                            <div class="media-body col-md-5">
+                                <h5>PDSデモ ホームアプリ</h5>
+                                <p>このアプリはPersoniumをPDS (Personal Data Store)として使用する際のユーザーインターフェースのサンプルです。</p>
+                            </div>
+							<div class="media-body col-md-7">
+								<a href="https://personium.io/demo/home-app/" target="_blank">
+                                <span class="tools"><img src="images/demo3.jpg" alt="Set Up" title="Set Up"></span>
+								</a>
                             </div>
                         </li>
-                        <li class="media my-4">
-                            <div class="circle-icon mr-4">2</div>
-                            <div class="media-body">
-                                <h5>Share with friends</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem eveniet</p>
-                            </div>
-                        </li>
+						
+						
                         <li class="media">
-                            <div class="circle-icon mr-4">3</div>
-                            <div class="media-body">
-                                <h5>Enjoy your life</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem </p>
+							
+                            <div class="circle-icon mr-5">3</div>
+                            <div class="media-body col-md-5">
+                                <h5>PCUI</h5>
+                                <p>PCUIはPersoniumをコマンドラインから操作する為のツールです。</p>
                             </div>
+							<div class="media-body col-md-7">
+								<a href="https://personium.io/demo/pcui/" target="_blank">
+							<span class="tools"><img src="images/demo4.jpg" alt="Set Up" title="Set Up"></span>
+									</a>
+                            </div>
+							
                         </li>
+							
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <img src="images/iphonex.png" alt="iphone" class="img-fluid">
+				<h3>APIs</h3>
+				<div class="col-md-12 d-flex align-items-center">
+                    <ul class="list-unstyled ui-steps">
+                        <li class="media">
+                            <div class="circle-icon mr-5">1</div>
+                            <div class="media-body col-md-5">
+                                <h5>UnitManager</h5>
+                                <p>UnitManager はPersoniumのUnit内のCellを管理するGUIツールです。</p>
+                            </div>
+							<div class="media-body col-md-7">
+                                <span class="tools"><img src="images/demo5.jpg" alt="Set Up" title="Set Up"></span>
+                            </div>
+                        </li>
+                     
+                    </ul>
                 </div>
+<!--                <div class="col-md-4">
+                    <img src="images/iphonex.png" alt="iphone" class="img-fluid">
+                </div>-->
 
             </div>
 
-        </div>
+        
 
     </div>
+</div>
+    <!-- // end .section -->
+				
+				
+				
+<!--                <div class="col-md-4">
+                    <img src="images/iphonex.png" alt="iphone" class="img-fluid">
+                </div>-->
+
+
+
+    
     <!-- // end .section -->
 
-
+<script>/*
     <div class="section">
         <div class="container">
             <div class="section-title">
@@ -358,75 +514,6 @@ URI     : https://colorlib.com
     <!-- // end .section -->
 
 
-
-
-
-    <div class="section" id="pricing">
-        <div class="container">
-            <div class="section-title">
-                <small>PRICING</small>
-                <h3>Upgrade to Pro</h3>
-            </div>
-
-            <div class="card-deck">
-                <div class="card pricing">
-                    <div class="card-head">
-                        <small class="text-primary">PERSONAL</small>
-                        <span class="price">$14<sub>/m</sub></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <div class="list-group-item">10 Projects</div>
-                        <div class="list-group-item">5 GB Storage</div>
-                        <div class="list-group-item">Basic Support</div>
-                        <div class="list-group-item"><del>Collaboration</del></div>
-                        <div class="list-group-item"><del>Reports and analytics</del></div>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
-                    </div>
-                </div>
-                <div class="card pricing popular">
-                    <div class="card-head">
-                        <small class="text-primary">FOR TEAMS</small>
-                        <span class="price">$29<sub>/m</sub></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <div class="list-group-item">Unlimited Projects</div>
-                        <div class="list-group-item">100 GB Storage</div>
-                        <div class="list-group-item">Priority Support</div>
-                        <div class="list-group-item">Collaboration</div>
-                        <div class="list-group-item">Reports and analytics</div>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
-                    </div>
-                </div>
-                <div class="card pricing">
-                    <div class="card-head">
-                        <small class="text-primary">ENTERPRISE</small>
-                        <span class="price">$249<sub>/m</sub></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <div class="list-group-item">Unlimited Projects</div>
-                        <div class="list-group-item">Unlimited Storage</div>
-                        <div class="list-group-item">Collaboration</div>
-                        <div class="list-group-item">Reports and analytics</div>
-                        <div class="list-group-item">Web hooks</div>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
-                    </div>
-                </div>
-            </div>
-            <!-- // end .pricing -->
-
-
-        </div>
-
-    </div>
-    <!-- // end .section -->
-
-
     <div class="section pt-0">
         <div class="container">
             <div class="section-title">
@@ -454,7 +541,7 @@ URI     : https://colorlib.com
 
     </div>
     <!-- // end .section -->
-
+*/</script>
 
 
     <div class="section bg-gradient">
@@ -478,29 +565,18 @@ URI     : https://colorlib.com
 
     <div class="light-bg py-5" id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 text-center text-lg-left">
-                    <p class="mb-2"> <span class="ti-location-pin mr-2"></span> 1485 Pacific St, Brooklyn, NY 11216 USA</p>
-                    <div class=" d-block d-sm-inline-block">
-                        <p class="mb-2">
-                            <span class="ti-email mr-2"></span> <a class="mr-4" href="mailto:support@mobileapp.com">support@mobileapp.com</a>
-                        </p>
-                    </div>
-                    <div class="d-block d-sm-inline-block">
-                        <p class="mb-0">
-                            <span class="ti-headphone-alt mr-2"></span> <a href="tel:51836362800">518-3636-2800</a>
-                        </p>
-                    </div>
+           
+			<div class="center-block text-center">
 
-                </div>
-                <div class="col-lg-6">
+                
                     <div class="social-icons">
-                        <a href="#"><span class="ti-facebook"></span></a>
-                        <a href="#"><span class="ti-twitter-alt"></span></a>
-                        <a href="#"><span class="ti-instagram"></span></a>
+                        
+                        <a href="https://twitter.com/personium_ja"><span class="ti-twitter-alt"></span></a>
+                        <a href="https://github.com/personium"><span class="ti-github"></span></a>
                     </div>
-                </div>
+                
             </div>
+			
 
         </div>
 
@@ -524,7 +600,7 @@ URI     : https://colorlib.com
     <script src="js/owl.carousel.min.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
-
+<p id="page-top"><a href="#">TOP</a></p>
 </body>
 
 </html>
