@@ -159,6 +159,26 @@ p.lead {
     margin-bottom: 3rem;
 }
 
+.t-member {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.vision {
+	text-align: justify;
+    text-align-last: left;
+    margin-bottom: 3rem;
+}
+
+.t-vision {
+	margin-top: 10px;
+}
+
+.t-vision a{
+	color: #D4FFED;
+}
+
+
 .tools img{
 	max-width: 100%;
 }
@@ -176,7 +196,20 @@ p.lead {
     }
 }
 
+.sns{
+	/*width: 25px;*/
+	min-width: 22px;
+    margin-left: 16px;
+	margin-top: 5px;
+}
 
+.st0{
+	fill:currentColor; 
+}
+
+.f-icon{
+	display: inline;
+}
 /* NAVBAR
 ----------------------*/
 
@@ -209,7 +242,7 @@ p.lead {
 }
 
 .nav-menu.is-scrolling a {
-    color: #1ebe8c!important;
+    color: #707070!important;
 }
 
 .nav-menu.is-scrolling a:hover {
@@ -317,20 +350,44 @@ header {
     font-size: 80%;
 	opacity: 0.5;
 }
+
+#page-top a:before {
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    margin: auto;
+    border: 1px solid #fff;
+    border-color: #fff #fff transparent transparent;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
 #page-top a {
-    background: #232323;
+    background: #575757;
     text-decoration: none;
-    color: #1ebe8c;
-    width: 80px;
+    color: #fff;
+    width: 60px;
     padding: 30px 0;
     text-align: center;
     display: block;
-    border-radius: 40px;
+    border-radius: 30px;
 }
+
+
+
 #page-top a:hover {
     text-decoration: none;
     background: #999;
 }
+
+
 
 /* FEATURES
 ----------------------*/
@@ -413,6 +470,14 @@ header {
     border-radius: 3px;
     margin-bottom: 1.5rem;
     background-color: #FFF;
+}
+
+.app{
+	height: 100px;
+}
+
+.app-icon{
+	font-size: 5rem!important;
 }
 
 .circle-icon {
@@ -527,11 +592,8 @@ header {
 /*  TESTIMONIALS
 ----------------------*/
 
-.owl-carousel .owl-item img.client-img {
-    width: 110px;
-    margin: 30px auto;
-    border-radius: 50%;
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+.client-img {
+	text-align: center;
 }
 
 .testimonials-single {
@@ -703,18 +765,15 @@ header {
 
 .social-icons {
     text-align: center;
+	list-style: none;
 }
 
 .social-icons a {
-    background-color: #FFF;
-    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.05);
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: inline-block;
-    text-align: center;
-    line-height: 50px;
-    margin: 0 0.3rem;
-    border-radius: 5px;
+    /* line-height: 39px; */
+    margin: 0 0.8rem;
     color: #1ebe8c;
     transition: all 0.3s ease;
 }
