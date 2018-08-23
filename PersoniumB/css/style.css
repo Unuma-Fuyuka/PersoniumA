@@ -167,7 +167,6 @@ p.lead {
 .vision {
 	text-align: justify;
     text-align-last: left;
-    margin-bottom: 3rem;
 }
 
 .t-vision {
@@ -221,11 +220,6 @@ p.lead {
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
     background-color: rgb(255, 255, 255);
-/*    background: -moz-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: -webkit-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);*/
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -242,6 +236,10 @@ p.lead {
 }
 
 .nav-menu.is-scrolling a {
+    color: #707070!important;
+}
+
+.nav-menu.navbar-brand.is-scrolling a {
     color: #707070!important;
 }
 
@@ -292,6 +290,14 @@ header {
     padding: 200px 0px 200px;
     text-align: center;
     color: #fff;
+}
+
+@media (max-width:450px) {
+header {
+    padding: 70px 0px 70px;
+    text-align: center;
+    color: #fff;
+}
 }
 
 .header-title{
@@ -781,6 +787,10 @@ header {
 .social-icons a:hover {
     text-decoration: none;
     color: rgba(30, 190, 140, 0.5);
+}
+
+.f-icon img:hover{
+	opacity: 0.5;
 }
 
 @media (max-width:991px) {
