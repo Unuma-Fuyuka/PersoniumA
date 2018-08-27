@@ -46,7 +46,7 @@ URI     : https://colorlib.com
                         <a class="navbar-brand" href="index.html">
 							
 					
-						<img id="header-logo" class="navbar-nav-svg material-icons md-dark pmd-sm pmd-svg-icon" src="../images/logo-quantify-light.png" title="personium" alt="personium" width="225px">
+						<img id="header-logo" class=" md-dark pmd-sm pmd-svg-icon" src="../../../images/logo-quantify-light.png" title="personium" alt="personium" width="225px">
 						
 						</a> 
 						
@@ -76,8 +76,8 @@ URI     : https://colorlib.com
 								<a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Languages</a>
 								  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
-									<a class="dropdown-item " href="../en/index.html">English</a>
-									<a class="dropdown-item active" href="index.html">Japanese</a>
+									<a class="dropdown-item active" href="../en/index.html">English</a>
+									<a class="dropdown-item" href="../ja/index.html">Japanese</a>
 								  </div>
 								</li>
                             </ul>
@@ -96,7 +96,9 @@ URI     : https://colorlib.com
         <div class="container mt-5">
 			<div class="header-title">
             <h1><img class="logo" src="../images/logo-quantify-light.svg" alt="Quantify - One Page HTML Theme" /></h1>
-            <p class="tagline">相互につながるオープンソースのPDS (Personal Data Store) server で保護されたDataAPIのWorld Wide Webという未来を描く</p>
+            <p class="tagline">An interconnectable open source
+                <br/>PDS (Personal Data Store) server
+                <br/>envisioning world wide web of protected data APIs.</p>
 			</div>
         </div>
        <!-- <div class="img-holder mt-3"><img src="images/iphonex.png" alt="phone" class="img-fluid"></div>-->
@@ -110,13 +112,14 @@ URI     : https://colorlib.com
 
             <div class="section-title">
                 <small>About</small>
-                <h3>オープンソースのＰＤＳサーバソフトウェア</h3>
+                <h3>Open Source PDS server software</h3>
             </div>
 			<div class="videoflame">
 			<div class="embed-responsive embed-responsive-16by9 video">
   				<iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/uBFfsCIwGq4?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
 				</div>
+
 
             <div class="row">
                 <div class="col-12 col-lg-4">
@@ -127,7 +130,11 @@ URI     : https://colorlib.com
                                 <!--<span class="ti-face-smile gradient-fill ti-3x mr-3"></span>-->
                                 <div class="media-body">
                                     <h4 class="card-title">Personal Data Store</h4>
-                                    <p class="card-text">Personiumは、様々な端末の様々なアプリからデータを読み書きできる分散PDSサーバです。電子カルテからゲームまで、様々なアプリデータをホストできるBaaSとしての実力に裏打ちされた柔軟性をもっています。Personiumは遠大な理念・ビジョンを持ちながらも、豊富な実績をもったソフトウェアです。 </p>
+                                    <p class="card-text">Personium is a distributed Personal Data Store(PDS) server with which various applications
+                                        on various devices can read and write their data. As a BaaS software, it has proven
+                                        flexibility to store variety of data from various appilcations, from electronic medical
+                                        record to simple game. Personium has not only lofty visions and concepts but also
+                                        proven track record.</p>
                                 </div>
                             </div>
                         </div>
@@ -141,9 +148,15 @@ URI     : https://colorlib.com
                                 <!--<span class="ti-settings gradient-fill ti-3x mr-3"></span>-->
                                 <div class="media-body">
                                     <h4 class="card-title">Backend as a Service</h4>
-                                    <p class="card-text">Personiumの強みはここです。Android, iOS, Windowsなど様々なプラットフォームの、スマートフォン、タブレット、PC、センサなど様々なデバイス、そして電子カルテからゲームまで様々なアプリケーションのデータをセキュアに格納してきた実績があります。
-
-<br>リレーショナルデータを扱うOASIS ODataに準拠した空間をいくつでも作成できるので、基本的なRESTのCRUDに加え、多彩な検索や楽観ロック制御など高度で柔軟なAPIの恩恵を受けることができます。また画像や音声などメディアデータをはじめとするファイルデータはWebDAVでシンプルにCRUD可能です。</p>
+                                    <p class="card-text">Personium is strong at this point. It has proven track records of securely storing data
+                                        from various applications from medical record to simple game, which run on various
+                                        platforms like Android, iOS, Windows, installed on various devices such as smart
+                                        phones, tablets, PC, sensors.
+                                        <br />
+                                        <br />From functional point of view, since you can create as many OASIS OData spaces to
+                                        handle relational data, you will benefit from flexible data API with advanced features
+                                        such as various searchs and optimistic lock. Also, WebDAV feature enables CRUD operation
+                                        of file data such as image, sound, movie media in a simple and smart manner.</p>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +170,15 @@ URI     : https://colorlib.com
                                 <!--<span class="ti-lock gradient-fill ti-3x mr-3"></span>-->
                                 <div class="media-body">
                                     <h4 class="card-title">Interconnectable</h4>
-                                    <p class="card-text">相互接続されたデータストア間のセキュアなデータ共有制御により、多数の企業や個人が絡む社会を支えるICTを構築可能です。介護士が記録した体温・血圧情報を医師が参照してより高度な診療に活かしたり、学校の先生が記録した算数の苦手ポイントを家庭教師が指導計画に活かしたり、と今までシステムの垣根のためにできなかったことが実現できます。PKI技術でデータストア間の信頼を担保しているため、インフラをまたいでの相互接続ができます。</p>
+                                    <p class="card-text">Personium enables secure data sharing among interconnected data stores. This feature
+                                        enables such systems that multiple organizations and individuals cooperate in a complex
+                                        manner. Some system may enable a home doctor to use his/her patient's blood pressure
+                                        data that care workers measured a few days ago. Other system may enable a private
+                                        tutor to refer to his/her student's arithmetics weak point that school teacher has
+                                        just finded out. In short, it enables something new, which could not be achieved
+                                        due to the separation of systems. Data stores are also interconnectable beyond the
+                                        server infrastructures, because the trust among data stores is achieved using PKI
+                                        technology.</p>
                                 </div>
                             </div>
                         </div>
@@ -172,14 +193,16 @@ URI     : https://colorlib.com
     </div>
 	<!-- // end .section -->
 		 <div class="section bg-gradient" id="Vision">
-        <div class="container text-center">
+         <div class="container text-center">
             <div class="call-to-action">
-				<h2 class="title-text">基本理念</h2>
-				<p class="tagline">相互につながるオープンソースのPDS (Personal Data Store) server で保護されたDataAPIのWorld Wide Webという未来を描く</p>
+				<h2 class="title-text">Vision</h2>
+				<p class="tagline">An interconnectable open source
+                    <br/>PDS (Personal Data Store) server
+                    <br/>envisioning world wide web of protected data APIs.</p>
 				
                 <!--<div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>-->
                 
-                <h2 class="t-vision">私たちは<a href="https://mydata.org/declaration/" target="_blank">「Mydata宣言」</a>に賛同します</h2>
+                <h2 class="t-vision">We agree with <a href='https://mydata.org/declaration/'> 'Mydata Declaration' </a></h2>
 			</div>
         </div>
 
@@ -191,7 +214,7 @@ URI     : https://colorlib.com
     <div class="section light-bg">
 
         <div class="container">
-			<h5 class="mt-4 mb-2">ミッション</h5>
+			<h5 class="mt-4 mb-2">Mission</h5>
             <div class="row" style="margin-top: 20px;">
                 <div class="col-md-6">
                     <img src="../images/mission.png" alt="mission" class="img-fluid">
@@ -199,15 +222,22 @@ URI     : https://colorlib.com
                 <div class="col-md-6 d-flex align-items-center vision">
                     <div>
 						
-                        <p class="mb-4">現在のコンピューティングの形態、データ・データの流れは人間社会にとって最適であるとは考えていません。人間の情報処理能力を支えるITの力を利用して、情報の受信、認識、記憶、統合、分析、表現を行うことは、すべての人間社会にとって共通の関心事でなければなりません。技術的な代謝、すなわち、新しい関心事、その関心に基づいて毎年発生する新たな表現技術の中で、私たちは、主にメモリを担当する持続層、すなわち、個々の人間のライフサイクルを安定して維持するITの重要性を強く認識しています 。今日のPDSはこれに非常に近いものです。 また、抽象化されたレイヤー「クラウド」やWeb API（「クライアント」とは対照的に）では、代謝が比較的少ない方がよいでしょう。このような人間社会のためのITは、単一の企業や個人の管理下に置かれるべきではなく、多くの個人または法人の知識を使用して共有され、共創されるべきです。そうするためには、世界中のすべての企業、組織、個人にクラウド技術を公開する必要があります。私たちの使命は、そのようなソフトウェアを開発し、維持し、それに基づいてアプリケーションの生態系を成長させ、育てることです。</p>
+                        <p class="mb-4">We do not think current form of computing, data-data flow is optimal for human society. 
+                            It should be a common interest for all the human society to create an existence using the power of IT to support  individual human information processing ability, that is, reception, recognition, memory, integration, analysis and expression of the information.
+                            Among the technical metabolism, that is, new divices, new   representation techniques arising every year based on that interest,  we strongly recognize the importance of a persistence layer  mainly responsible for memory, in other words, an IT that keeps stablly existing throught individual human lifecycle.
+                            What is called PDS today is very close to this.  And it had better be implemented in the abstracted layer 'Cloud' or Web API (as opposed to 'Client'), which is relatively free   from the metabolism.
+                            Such IT for the human society, should not be put under the control of single corporate or individual, but be shared and co-created using the knowledge of many individual or corporate entities.
+                            For that to happen,  that cloud technology should be open to all the corporates, organizations and individulals over the world.
+                            Our mission is to develop and keep evolving such software and grow and nourish the application ecosystem based on it.</p>
                     </div>
                 </div>
             </div>
-			<h5 class="mt-4 mb-2">ゴール</h5>
+			<h5 class="mt-4 mb-2">Goal</h5>
 			<div class="row">
                 <div class="col-md-6 d-flex align-items-center">
 					 <div>
-                        <p class="mb-4">私たちの目標はPDSの世界規模のウェブを形成することです。私たちのPDS実装である'Personium'はWWW(World Wide Web)を構成する際の'Apache'のように重要な役割を果たしています。</p>
+                        <p class="mb-4">Our goal is to form the World scale Web of PDS's.
+                            Preferrablly with our PDS implementation 'Personium' playing significant role  just as a web server implementation 'Apache' did when forming WWW (World Wide Web)</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -225,7 +255,7 @@ URI     : https://colorlib.com
         <div class="container">
             <div class="section-title" id="Resources">
                 <small>Resources</small>
-                <h3>PersoniumはApache License Version 2.0の<br>オープンソースソフトウェアです。</h3>
+                <h3>Personium is licensed under the Apache License Version 2.0.</h3>
             </div>
 
             <div class="card-deck">
@@ -235,7 +265,7 @@ URI     : https://colorlib.com
                         <span class="price"><img class="svg" src="../images/settings.svg" alt="Set Up" title="Set Up"></span>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <div class="list-group-item">Personiumのサーバ環境を手軽に、そして自動的に構築</div>
+                        <div class="list-group-item">Set up your own Personium server!</div>
                     </ul>
                     <div class="card-body">
                         <a href="https://personium.io/docs/ja/server-operator/setup_ja.html" target="_blank" class="btn btn-primary btn-lg btn-block">Set Up</a>
@@ -247,7 +277,7 @@ URI     : https://colorlib.com
                         <span class="price"><img class="svg" src="../images/code.svg" alt="Set Up" title="Set Up"></span>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <div class="list-group-item">すべてのソースコードをGitHubで公開</div>
+                        <div class="list-group-item">Clone repository from GitHub!</div>
  
                     </ul>
                     <div class="card-body">
@@ -260,7 +290,7 @@ URI     : https://colorlib.com
                         <span class="price"><img class="svg" src="../images/slideshare.svg" alt="Set Up" title="Set Up"></span>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <div class="list-group-item">Personiumの紹介をslideshareで公開</div>
+                        <div class="list-group-item">The introduction of Personium is opened on SlideShare.</div>
                     </ul>
                     <div class="card-body">
                         <a href="https://www.slideshare.net/ssuser11bf2b/personium-mydata2016-0902" target="_blank" class="btn btn-primary btn-lg btn-block">Introduction</a>
@@ -272,7 +302,7 @@ URI     : https://colorlib.com
                         <span class="price"><img class="svg" src="../images/file-text-o.svg" alt="Set Up" title="Set Up"></span>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <div class="list-group-item">仕様、APIリファレンスがオンラインで閲覧可能</div>
+                        <div class="list-group-item">See Personium's online documents!</div>
                     </ul>
                     <div class="card-body">
                         <a href="https://personium.io/docs/ja/" target="_blank" class="btn btn-primary btn-lg btn-block">Documentation</a>
@@ -293,8 +323,8 @@ URI     : https://colorlib.com
 
         <div class="container">
 			<div class="section-title">
-                <small>Personium の使用例をご紹介します。</small>
-                <h3>Personium sample デモ</h3>
+                <small>The following apps demonstrate how Personium manages data based on different user scenarios (user/operator/administrator).</small>
+                <h3>Personium Demo Apps</h3>
             </div>
 			<div class="videoflame">
 			<div class="embed-responsive embed-responsive-16by9 video">
@@ -306,71 +336,79 @@ URI     : https://colorlib.com
                 <h3>Management Tools</h3>
             </div>
 			
-
-			<div class="row line">
+	<div class="row line">
 								<div class="col-md-6">
-									
 									<h5>UnitManager</h5>
-									<p class="demo-text">UnitManager はPersoniumのUnit内のCellを管理するGUIツールです。</p>
+									<p class="demo-text">UnitManager is a GUI tool that helps you manage the unit cells of Personium.</p>
 								</div>
-								
 								<div class="col-md-6">
 									<a href="https://github.com/personium/app-uc-unit-manager/blob/master/README_ja.md" target="_blank">
 										<span class="tools"><img src="../images/demo5.jpg" alt="Set Up" title="Set Up"></span>
 									</a>
 								</div>
-						</div>
-				<div class="row line">
+
+								</div>
+						
+						
+                      <div class="row line">
 
                             <div class="col-md-6">
-                                <h5>PDSデモ ホームアプリ</h5>
-                                <p>このアプリはPersoniumをPDS (Personal Data Store)として使用する際のユーザーインターフェースのサンプルです。</p>
+                                <h5>HomeApp</h5>
+                                <p>HomeApp is a Personium-based \"Personal Data Store(PDS)\" management application.</p>
                             </div>
-							<div class="col-md-6">
+							 <div class="col-md-6">
 								<a href="demo/home-app/index.html" target="_blank">
                                 <span class="tools"><img src="../images/demo3.jpg" alt="Set Up" title="Set Up"></span>
 								</a>
                             </div>
-					</div>
-
+                        </div>
 						
 						
-                       <div class="row line">
-                            <div class="col-md-6">
+						
+						
+						
+						
+										
+						  <div class="row line">
+                      <div class="col-md-6">
+							
+                          
+                           
                                 <h5>PCUI</h5>
-                                <p>PCUIはPersoniumをコマンドラインから操作する為のツールです。</p>
+                                <p>PCUI is the CLI version of HomeApp that helps you manage a Personium-based cell.</p>
                             </div>
 							<div class="col-md-6">
 								<a href="demo/pcui/index.html" target="_blank">
 							<span class="tools"><img src="../images/demo4.jpg" alt="Set Up" title="Set Up"></span>
 									</a>
                             </div>
-								</div>
+							
+                        	</div>
 						<div class="section-title">
                 <h3>APIs</h3>
             </div>
 				  <div class="row line">
                             <div class="col-md-6">
+                            
+                            
+                            
                                 <h5>OData, WebDAV</h5>
-                                <p>こちらのデモは OData、WebDAVについて説明するためのデモです。これらの２つのRESTベースのプロトコルは世界標準としてpersoniumで使われている以上に世界の多くの地域で使われています。Personium APIの90%以上はこれらのAPIを基本に作成されています。つまりpersoniumのアプリケーションを開発するということはOData、WebDAVを使用したアプリケーションを開発するのと同じことです。</p>
+                                <p>This demo explains the basics of OData and WebDAV by allowing you to send an instant request and verify the response. These two REST-based protocols are international standards widely used in various area.  More than 90% of personium APIs are based on these two protocols. Therefore, developing applications for Personium is similar to developing any other OData/WebDAV based applications.</p>
                             </div>
-							<div class="col-md-6">
+						<div class="col-md-6">
 								<a href="https://demo.personium.io/baas-demo/1/index.html" target="_blank">
                                 <span class="tools"><img src="../images/demo5.jpg" alt="Set Up" title="Set Up"></span>
 								</a>
                             </div>
-					 
-                         </div>
-				
-		
-               
+                      
+                </div>
 
             </div>
 
         
 
     </div>
-
+</div>
  
 				
 				
@@ -381,30 +419,30 @@ URI     : https://colorlib.com
         <div class="container">
             <div class="section-title">
                 <small>member</small>
-                <h3>ご参加いただいているメンバーの方々</h3>
+                <h3>Community</h3>
             </div>
 			<div class="t-member">
                
-					<blockquote class="blockquote">Personiumは以下のような企業・団体、コントリビュータの皆様の協力・支援のもとに運営されています<br><br>
-						Personiumプロジェクトへの参加、ご協力については&nbsp;<a href="https://personium-io.slack.com/">Slackコミュニティ</a>&nbsp;までお問い合わせください。<br>
-Slackコミュニティへの参加登録は&nbsp;<a href="https://join.slack.com/t/personium-io/shared_invite/enQtNDA4OTg1MzI3NjM3LTIwNjVkZjZkZDVlNTQ2NjFmZTFjMTljMzAwNzk0ZjQ0MGJhMDIzOGIxN2UyZmMxYTkwMzIzOTU5ZmZkMmEyNzE">こちら</a>&nbsp;からどうぞ。</blockquote>
+					<blockquote class="blockquote">Personium is operated under the cooperation and support of the following companies / organizations, contributors
+                        <br>
+                        <br>For participation in the Personium project and cooperation please contact <a href='https://personium-io.slack.com/'> Slack Community </a>.<br>Slack participation registration in the community please from <a href='https://join.slack.com/t/personium-io/shared_invite/enQtNDA4OTg1MzI3NjM3LTIwNjVkZjZkZDVlNTQ2NjFmZTFjMTljMzAwNzk0ZjQ0MGJhMDIzOGIxN2UyZmMxYTkwMzIzOTU5ZmZkMmEyNzE'> here </a>.</blockquote>
 				
                 </div>
 
             <div class="row pt-4">
                 <div class="col-md-6">
-                    <h4 class="mb-3">企業・団体</h4>
-                    <p class="light-font mb-5">富士通株式会社<br>
-					会津大学<br>
-					株式会社　富士通九州システムズ<br>
-					株式会社　サイバービーイング </p>
+                    <h4 class="mb-3">companies / organizations</h4>
+                    <p class="light-font mb-5">FUJITSU LIMITED
+                        <br> THE UNIVERSITY OF AIZU
+                        <br> FUJITSU KYUSYU SYSTEMS LIMITED
+                        <br> CyberBeing LIMITED" </p>
 
 
                 </div>
                 <div class="col-md-6">
-                    <h4 class="mb-3">コントリビュータ</h4>
-                    <p class="light-font mb-5">富士通　太郎<br>
-ぺルソニアム　メロン </p>
+                    <h4 class="mb-3">contributors</h4>
+                    <p class="light-font mb-5">Fujitsu Taro
+                        <br> Personium Melon</p>
                     
 
                 </div>

@@ -43,10 +43,10 @@ URI     : https://colorlib.com
             <div class="row">
                 <div class="col-md-12">
                     <nav class="navbar navbar-dark navbar-expand-lg">
-                        <a class="navbar-brand" href="../index.html">
+                        <a class="navbar-brand" href="index.html">
 							
 					
-						<img class="navbar-nav-svg material-icons md-dark pmd-sm pmd-svg-icon" src="../images/logo-quantify-light.png" title="personium" alt="personium" width="225px">
+						<img id="header-logo" class=" md-dark pmd-sm pmd-svg-icon" src="../../../images/logo-quantify-light.png" title="personium" alt="personium" width="225px">
 						
 						</a> 
 						
@@ -63,12 +63,12 @@ URI     : https://colorlib.com
 								
 					<li class="nav-item sns">
 					 <a href="https://personium-io.slack.com/" target="_blank">
-						<img src="../images/h_slack.png" title="slack" alt="slack">
+						<img id="sns-s" src="../images/h_slack.png" title="slack" alt="slack">
                     </a></li>
 								
 					<li class="nav-item sns">
 					<a href="https://github.com/personium" target="_blank">
-						 <img src="../images/h_github.png" title="github" alt="github">
+						 <img id="sns-g" src="../images/h_github.png" title="github" alt="github">
                     </a></li>
 								<li class="nav-item"><a href="https://personium.io/docs/ja/" target="_blank" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Document</a></li>
 							
@@ -116,8 +116,10 @@ URI     : https://colorlib.com
             </div>
 			<div class="videoflame">
 			<div class="embed-responsive embed-responsive-16by9 video">
-                <iframe width="560" height="315" src="https://youtube.com/embed/Fq0pqL4lFA4" frameborder="0" allowfullscreen=""></iframe>			</div>
+  				<iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/Fq0pqL4lFA4?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
 				</div>
+
 
             <div class="row">
                 <div class="col-12 col-lg-4">
@@ -132,7 +134,7 @@ URI     : https://colorlib.com
                                         on various devices can read and write their data. As a BaaS software, it has proven
                                         flexibility to store variety of data from various appilcations, from electronic medical
                                         record to simple game. Personium has not only lofty visions and concepts but also
-                                        proven track record.<br><br><br><br><br><br><br></p>
+                                        proven track record.</p>
                                 </div>
                             </div>
                         </div>
@@ -176,7 +178,7 @@ URI     : https://colorlib.com
                                         just finded out. In short, it enables something new, which could not be achieved
                                         due to the separation of systems. Data stores are also interconnectable beyond the
                                         server infrastructures, because the trust among data stores is achieved using PKI
-                                        technology.<br><br><br><br></p>
+                                        technology.</p>
                                 </div>
                             </div>
                         </div>
@@ -191,9 +193,9 @@ URI     : https://colorlib.com
     </div>
 	<!-- // end .section -->
 		 <div class="section bg-gradient" id="Vision">
-        <div class="container">
+         <div class="container text-center">
             <div class="call-to-action">
-				<h2>Vision</h2>
+				<h2 class="title-text">Vision</h2>
 				<p class="tagline">An interconnectable open source
                     <br/>PDS (Personal Data Store) server
                     <br/>envisioning world wide web of protected data APIs.</p>
@@ -334,72 +336,71 @@ URI     : https://colorlib.com
                 <h3>Management Tools</h3>
             </div>
 			
-			<div class="row">
-                <div class="col-md-12 d-flex align-items-center">
-                    <ul class="list-unstyled ui-steps">
-						
-							<li class="media">
-
-								<div class="media-body col-md-5">
+	<div class="row line">
+								<div class="col-md-6">
 									<h5>UnitManager</h5>
-									<p>UnitManager is a GUI tool that helps you manage the unit cells of Personium.</p>
+									<p class="demo-text">UnitManager is a GUI tool that helps you manage the unit cells of Personium.</p>
 								</div>
-								<div class="media-body col-md-7">
+								<div class="col-md-6">
 									<a href="https://github.com/personium/app-uc-unit-manager/blob/master/README_ja.md" target="_blank">
 										<span class="tools"><img src="../images/demo5.jpg" alt="Set Up" title="Set Up"></span>
 									</a>
 								</div>
 
-							</li>
+								</div>
 						
 						
-                        <li class="media">
-                           
-                            <div class="media-body col-md-5">
+                      <div class="row line">
+
+                            <div class="col-md-6">
                                 <h5>HomeApp</h5>
                                 <p>HomeApp is a Personium-based \"Personal Data Store(PDS)\" management application.</p>
                             </div>
-							<div class="media-body col-md-7">
+							 <div class="col-md-6">
 								<a href="demo/home-app/index.html" target="_blank">
                                 <span class="tools"><img src="../images/demo3.jpg" alt="Set Up" title="Set Up"></span>
 								</a>
                             </div>
-                        </li>
+                        </div>
 						
 						
-                        <li class="media">
+						
+						
+						
+						
+										
+						  <div class="row line">
+                      <div class="col-md-6">
 							
                           
-                            <div class="media-body col-md-5">
+                           
                                 <h5>PCUI</h5>
                                 <p>PCUI is the CLI version of HomeApp that helps you manage a Personium-based cell.</p>
                             </div>
-							<div class="media-body col-md-7">
+							<div class="col-md-6">
 								<a href="demo/pcui/index.html" target="_blank">
 							<span class="tools"><img src="../images/demo4.jpg" alt="Set Up" title="Set Up"></span>
 									</a>
                             </div>
 							
-                        </li>
-							
-                    </ul>
-                </div>
-				<h3>APIs</h3>
-				<div class="col-md-12 d-flex align-items-center">
-                    <ul class="list-unstyled ui-steps">
-                        <li class="media">
-                            <div class="media-body col-md-5">
+                        	</div>
+						<div class="section-title">
+                <h3>APIs</h3>
+            </div>
+				  <div class="row line">
+                            <div class="col-md-6">
+                            
+                            
+                            
                                 <h5>OData, WebDAV</h5>
                                 <p>This demo explains the basics of OData and WebDAV by allowing you to send an instant request and verify the response. These two REST-based protocols are international standards widely used in various area.  More than 90% of personium APIs are based on these two protocols. Therefore, developing applications for Personium is similar to developing any other OData/WebDAV based applications.</p>
                             </div>
-							<div class="media-body col-md-7">
+						<div class="col-md-6">
 								<a href="https://demo.personium.io/baas-demo/1/index.html" target="_blank">
                                 <span class="tools"><img src="../images/demo5.jpg" alt="Set Up" title="Set Up"></span>
 								</a>
                             </div>
-                        </li>
-                     
-                    </ul>
+                      
                 </div>
 
             </div>
@@ -461,7 +462,7 @@ URI     : https://colorlib.com
 			<div class="center-block text-center">
 
                 
-                    <div class="social-icons">
+                    <div class="social-icons f-aria">
 						<li class="f-icon">
 								 <a href="https://twitter.com/personium_ja" target="_blank">
 						<img src="../images/f_twitter.png" title="twitter" alt="twitter">

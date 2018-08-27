@@ -19,14 +19,10 @@ $(function() {
         var $navmenu = $('.nav-menu');
         if ($(window).scrollTop() > 50) {
             $navmenu.addClass('is-scrolling');
-            $('#header-logo').attr('src','../images//logo-quantify-dark.png');
-			$('#sns-s').attr('src','../images//h_slack-dark.png');
-			$('#sns-g').attr('src','../images//h_github-dark.png');
+            $('#header-logo').attr('src','../../../images//logo-quantify-dark.png');
         } else {
             $navmenu.removeClass("is-scrolling");
-            $('#header-logo').attr('src','../images//logo-quantify-light.png');
-			$('#sns-s').attr('src','../images//h_slack-light.png');
-			$('#sns-g').attr('src','../images//h_github-light.png');
+            $('#header-logo').attr('src','../../../images//logo-quantify-light.png');
         }
     }
     menuscroll();

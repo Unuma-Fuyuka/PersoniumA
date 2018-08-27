@@ -38,12 +38,12 @@ URI     : https://colorlib.com
 
     <!-- Nav Menu -->
 
-    <div id="home" class="nav-menu fixed-top">
+    <div class="nav-menu fixed-top">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <nav class="navbar navbar-dark navbar-expand-lg">
-                        <a class="navbar-brand" href="../../index.html">
+                        <a class="navbar-brand" href="../../../index.html">
 
 
                             <img id="header-logo" class="navbar-nav-svg material-icons md-dark pmd-sm pmd-svg-icon" src="../../../images/logo-quantify-light.png" title="personium" alt="personium" width="225px">
@@ -67,7 +67,7 @@ URI     : https://colorlib.com
                                         Languages</a>
                                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
                                         <a class="dropdown-item active" href="index.html">English</a>
-                                        <a class="dropdown-item" href="../../../ja/demo/pcui/index.html">Japanese</a>
+                                        <a class="dropdown-item" href="../../../en/demo/pcui/index.html">Japanese</a>
                                     </div>
                                 </li>
                             </ul>
@@ -100,7 +100,7 @@ URI     : https://colorlib.com
 
         <div class="container">
 
-            <div class="section-title">
+            <div id="home" class="section-title">
                 <small>Demo</small>
                 <h3>PCUI Manual</h3>
             </div>
