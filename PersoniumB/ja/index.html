@@ -30,6 +30,7 @@ URI     : https://colorlib.com
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <!-- Main css -->
     <link href="../css/style.css" rel="stylesheet">
+	
 	<!--Google Material icon-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 </head>
@@ -47,7 +48,6 @@ URI     : https://colorlib.com
 							
 					
 						<img id="header-logo" class="navbar-nav-svg material-icons md-dark pmd-sm pmd-svg-icon" src="../images/logo-quantify-light.png" title="personium" alt="personium" width="225px">
-						
 						</a> 
 						
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
@@ -57,7 +57,6 @@ URI     : https://colorlib.com
 								<li class="nav-item"> <a class="nav-link" href="#Vision">Vision</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#Resources">Resources</a> </li>
 								<li class="nav-item"> <a class="nav-link" href="#Demo">Demo</a> </li>
-								
 								<li class="nav-item"> <a class="nav-link" href="#Community">Community</a> </li>
 								
 								
@@ -92,19 +91,27 @@ URI     : https://colorlib.com
     </div>
 
 
-    <header class="bg-gradient" id="home">
+    <header id="home" class="filter">
+		
         <div class="container mt-5">
+			
 			<div class="header-title">
             <h1><img class="logo" src="../images/logo-quantify-light.svg" alt="Quantify - One Page HTML Theme" /></h1>
             <p class="tagline">相互につながるオープンソースのPDS (Personal Data Store) server で保護されたDataAPIのWorld Wide Webという未来を描く</p>
 			</div>
+			
         </div>
-       <!-- <div class="img-holder mt-3"><img src="images/iphonex.png" alt="phone" class="img-fluid"></div>-->
+	
     </header>
+	
+	<!--ヘッダー背景のアニメーション-->
+	    <div id="background-container" class="background-container">
+            <div id="background-output" class="background-output"></div>
+        </div>
+    <!--ヘッダー背景のアニメーション-->
 
 
     <div class="section light-bg" id="features">
-
 
         <div class="container">
 
@@ -460,7 +467,10 @@ Slackコミュニティへの参加登録は&nbsp;<a href="https://join.slack.co
 
     <!-- jQuery and Bootstrap -->
     <script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/jquery-1.11.1.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
+	<script src="../js/flat-surface-shader.js"></script>
+    <script src="../js/shader.js"></script>
     <!-- Plugins JS -->
     <script src="../js/owl.carousel.min.js"></script>
     <!-- Custom JS -->
